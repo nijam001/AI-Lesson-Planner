@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f9fafb;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+}
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --white: #ffffff;
+  --main: #f9fafb;
+  --section: #eff4fc;
+  --blue: #1890ff;
+  --dark-blue: #00246b;
+  --light-blue: #8ab5f9;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Allow scrolling but hide the scrollbar */
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
